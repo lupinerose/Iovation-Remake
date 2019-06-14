@@ -19,8 +19,8 @@ li {
 
 #logo {
   float: left;
-  margin-top: 15px;
-  margin-left: 50px;
+  margin-top: 14px;
+  margin-left: 44px;
   z-index: 10;
   -moz-transition: .1s linear;
   -webkit-transition: .1s linear;
@@ -30,7 +30,7 @@ li {
 #menu {
   float: right;
   margin-top: 20px;
-  margin-right: 50px;
+  margin-right: 52px;
   z-index: 10;
   -moz-transition: .1s linear;
   -webkit-transition: .1s linear;
