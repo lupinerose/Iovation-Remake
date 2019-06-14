@@ -7,6 +7,8 @@
 
 .title {
   margin-left: 60px;
+  margin-top: 130px;
+  width: 30%;
 }
 
 .title h2 {
@@ -14,5 +16,14 @@
 }
 
 .text {
+  margin-top: 148px;
   margin-right: 60px;
+  width: 60%;
+  align-items: right;
+  padding-left: 110px;
+}
+
+.text p {
+  font-size: 1.2rem;
+  /* display: block; */
 }
