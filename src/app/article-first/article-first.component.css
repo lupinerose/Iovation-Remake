@@ -1,7 +1,7 @@
 .main-content {
   background-color: #04b8a6;
   background-size: cover;
-  height: 107vh;
+  height: 120vh;
   display: flex;
 }
 
@@ -9,7 +9,19 @@
   margin-left: 50px;
   color: white;
   width: 50%;
-  align-self: center;
+  margin-top: 150px;
+  /* align-self: center; */
+}
+
+.text h1 {
+  font-size: 5rem;
+  line-height: 0.95;
+  font-weight: 500;
+}
+
+.text p {
+  font-size: 20px;
+  margin-bottom: 50px;
 }
 
 .media { 
@@ -21,18 +33,19 @@
 
 img {
   width: 100%;
+  height: auto;
 }
 
 .thisButton {
   text-transform: uppercase;
-  padding: (@padding - 0.5) @padding;
+  /* padding: (@padding - 0.5) @padding; */
   font-weight: bold; 
   -moz-border-radius: 40px;
   -ms-border-radius: 40px;
   border-radius: 40px;
-  -moz-transition: .5s linear;
-  -webkit-transition: .5s linear;
-  transition: .5s linear;
+  -moz-transition: .1s linear;
+  -webkit-transition: .1s linear;
+  transition: .1s linear;
 }
 
 
