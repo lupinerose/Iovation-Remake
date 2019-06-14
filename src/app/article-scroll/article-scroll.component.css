@@ -1,0 +1,11 @@
+.scroll {
+  height: 3060px;
+  background-color: #0086ca;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+}
+
+.man-image {
+  height: 470px;
+}
