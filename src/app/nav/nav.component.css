@@ -1,0 +1,25 @@
+ul {
+  position: fixed;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background: rgba(0, 0, 0, 0);
+  width: 100vw;
+  height: 75px;
+}
+
+li {
+  display: inline;
+}
+
+#logo {
+  float: left;
+  margin-top: 15px;
+  margin-left: 50px;
+}
+
+#menu {
+  float: right;
+  margin-top: 20px;
+  margin-right: 50px;
+}
