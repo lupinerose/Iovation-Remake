@@ -1,1 +1,18 @@
-/* background-color: #0086ca; */
+.main-content {
+  height: 100vh;
+  background-color: #0086ca;
+  color: white;
+  display: flex;
+}
+
+.title {
+  margin-left: 60px;
+}
+
+.title h2 {
+  font-size: 35px;
+}
+
+.text {
+  margin-right: 60px;
+}
