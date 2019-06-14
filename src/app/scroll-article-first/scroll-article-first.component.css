@@ -1,3 +1,58 @@
 .main {
   height: 1360px;
+  display: flex;
+}
+
+.media img {
+  border-radius: 100%;
+  width: 100%;
+}
+
+.media {
+  height: 470px;
+  align-self: center;
+  width: 50%;
+}
+
+.text {
+  padding-left: 95px;
+  margin-left: 50px;
+  color: white;
+  height: 336px;
+  margin-top: 680px;
+  width: 50%;
+}
+
+.text p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.text h6 {
+  color: #002256;
+}
+
+.thisButton {
+  font-size: 14px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  border-radius: 40px;
+  -moz-transition: .1s linear;
+  -webkit-transition: .1s linear;
+  transition: .1s linear;
+}
+
+
+.default1 {
+  background-color: #002256;
+  color: white;
+  padding-top: 15px;
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-bottom: 15px;
+}
+
+.default1:hover{
+  color:#002256;
+  background-color:white;
 }
