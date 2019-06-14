@@ -1,9 +1,14 @@
-.main-content {
-  height: 100vh;
+.main {
+  height: 3386px;
   background-color: #0086ca;
   color: white;
-  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
 }
+
+.content {
+  display: flex;
+  height: 306px;
+}   
 
 .title {
   margin-left: 60px;
