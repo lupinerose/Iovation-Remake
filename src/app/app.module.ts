@@ -8,6 +8,8 @@ import { ArticleFirstComponent } from './article-first/article-first.component';
 import { ArticleSecondComponent } from './article-second/article-second.component';
 import { ArticleScrollComponent } from './article-scroll/article-scroll.component';
 import { ScrollArticleFirstComponent } from './scroll-article-first/scroll-article-first.component';
+import { ScrollArticleSecondComponent } from './scroll-article-second/scroll-article-second.component';
+import { ScrollArticleThirdComponent } from './scroll-article-third/scroll-article-third.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { ScrollArticleFirstComponent } from './scroll-article-first/scroll-artic
     ArticleFirstComponent,
     ArticleSecondComponent,
     ArticleScrollComponent,
-    ScrollArticleFirstComponent
+    ScrollArticleFirstComponent,
+    ScrollArticleSecondComponent,
+    ScrollArticleThirdComponent
   ],
   imports: [
     BrowserModule,
