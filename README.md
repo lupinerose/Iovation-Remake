@@ -19,12 +19,15 @@ _To download the project:_
 
 _To run the application:_
 
-* _In your command line, within the "iovation-remake" project folder, type "ng serve," and npm will compile the files and your web browser will automatically open the doctor lookup webpage._
+* _In your command line, within the "iovation-remake" project folder, type "ng serve," and Angular will compile the files and your web browser will automatically open the Iovation webpage._
 
 ## Specs
 
 | Behavior | Input | Output |
 | ------------- |:-------------:| -----:|
+| Webpage has a nav bar| scroll | navbar becomes white and sticks to the top of page, logo and menu icon change colors |
+| Webpage has a "watch video" button| hover over | button becomes transparent |
+| Webpage has a "stop fraud cold" button | hover over | button becomes white | 
 
 ## Known Bugs
 
@@ -36,40 +39,10 @@ _Should any problems occur, or any bugs discovered, please contact Brooke at bro
 
 ## Technologies Used
 
-_This program was written in Typescript, Angular, and CSS._
+_This program was written in Typescript, Angular, Materialize, Bootstrap, HTML and CSS._
 
 ### License
 
 *This software is licensed under MIT license.*
 
 Copyright (c) 2019 **_Brooke Kullberg_**
-
-
-///////////////////////////////////
-# IovationRemake
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.3.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
